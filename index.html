@@ -1,36 +1,36 @@
 <html>
-	<head>
-		<title>Pluton/0</title>
-		<style>
-			.Drive1541 { display: none; }
-			.text80x24 {
-				font-family: monospace;
-				font-size: 20px;
-				color: limegreen;
-				background: black;
-				width: 100%;
-				min-height: 552px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="Drive1541" id="U8">
-			<div class="file" id="welcome.txt" data="fmt:text">
-				Welcome to the Pluton/0 computer.
-			</div>
-			<div class="file" id="sample.bin" data="fmt:xd">
+  <head>
+    <title>Pluton/0</title>
+    <style>
+      .Drive1541 { display: none; }
+      .text80x24 {
+        font-family: monospace;
+        font-size: 20px;
+        color: limegreen;
+        background: black;
+        width: 100%;
+        min-height: 552px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Drive1541" id="U8">
+      <div class="file" id="welcome.txt" data="fmt:text">
+        Welcome to the Pluton/0 computer.
+      </div>
+      <div class="file" id="sample.bin" data="fmt:xd">
 0000000 ea ea ea ea a9 80 85 00 69 10 85 01 69 10 85 02
 0000020 00 a9 c0 48 a9 00 48 60
-			</div>
-			<div class="file" id="sample2.bin" data="fmt:b64">
+      </div>
+      <div class="file" id="sample2.bin" data="fmt:b64">
 VGhlcmUgd2lsbCBudmVyIGJlIGVub3VnaCB3b25kZXIgaW4gdGhlIHdvcmxkLgpNeSBMeWZ0IGlzIGhlcmUu
-			</div>
-		</div>
-		<div class="text80x24" id="term"></div>
-		<footer>Copyright &copy; rsbohn 2019 -- LGPL 3.0</footer>
-	<script>
-		t=document.getElementById("term");
+      </div>
+    </div>
+    <div class="text80x24" id="term"></div>
+    <footer>Copyright &copy; rsbohn 2019 -- LGPL 3.0</footer>
+  <script>
+    t=document.getElementById("term");
 t.innerText="0---------1---------2---------3---------4---------5---------6---------7---------\n01234567890123456789012345678901234567890123456789012345678901234567890123456789\n\nPluton/0 Computer\n\nREADY\n>"
-	</script>
-	</body>
+  </script>
+  </body>
 </html>
